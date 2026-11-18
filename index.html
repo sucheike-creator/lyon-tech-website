@@ -1,0 +1,689 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="LYON TECH designs and develops modern, responsive websites for businesses, brands, restaurants and individuals."
+    />
+
+    <meta name="theme-color" content="#070b14" />
+
+    <title>LYON TECH | Web Design & Development</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <div class="container nav-container">
+        <a href="#home" class="logo" aria-label="LYON TECH home">
+          <span class="logo-mark">LT</span>
+          <span class="logo-name">LYON TECH</span>
+        </a>
+
+        <button
+          type="button"
+          class="menu-toggle"
+          id="menu-toggle"
+          aria-label="Open navigation menu"
+          aria-expanded="false"
+          aria-controls="nav-menu"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="nav-menu" id="nav-menu" aria-label="Main navigation">
+          <a href="#home" class="nav-link active">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#services" class="nav-link">Services</a>
+          <a href="#skills" class="nav-link">Capabilities</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#contact" class="nav-link nav-contact">Let's Talk</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO / HOME -->
+      <section class="hero section" id="home">
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <p class="eyebrow">
+              <span class="status-dot"></span>
+              WEB DEVELOPMENT & DIGITAL SOLUTIONS
+            </p>
+
+            <h1>
+              Innovation That
+              <span class="gradient-text">Moves You Forward.</span>
+            </h1>
+
+            <p class="hero-description">
+              LYON TECH designs and develops clean, responsive and user-friendly
+              websites that help businesses, brands and individuals establish a
+              strong online presence.
+            </p>
+
+            <div class="hero-buttons">
+              <a href="#projects" class="button button-primary">
+                Explore Our Work
+                <span aria-hidden="true">↗</span>
+              </a>
+
+              <a href="#contact" class="button button-outline"> Contact Us </a>
+            </div>
+
+            <div class="hero-note">
+              <span class="note-line"></span>
+              Creative thinking. Modern websites. Meaningful digital
+              experiences.
+            </div>
+          </div>
+
+          <!-- DECORATIVE CODE CARD -->
+          <div class="hero-visual" aria-hidden="true">
+            <div class="glow glow-one"></div>
+            <div class="glow glow-two"></div>
+
+            <div class="code-card">
+              <div class="code-top">
+                <div class="window-dots">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+
+                <span>lyon-tech.js</span>
+              </div>
+
+              <div class="code-content">
+                <p><span class="code-purple">const</span> brand = {</p>
+
+                <p class="indent">
+                  name: <span class="code-green">"LYON TECH"</span>,
+                </p>
+
+                <p class="indent">
+                  focus: <span class="code-green">"Web Development"</span>,
+                </p>
+
+                <p class="indent">
+                  design:
+                  <span class="code-green">"Modern & Responsive"</span>,
+                </p>
+
+                <p class="indent">
+                  mindset: <span class="code-green">"Always Improving"</span>
+                </p>
+
+                <p>};</p>
+
+                <br />
+
+                <p>
+                  <span class="code-purple">function</span>
+                  <span class="code-blue">buildSomethingGreat</span>() {
+                </p>
+
+                <p class="indent">
+                  return <span class="code-green">"Let's create!"</span>;
+                </p>
+
+                <p>}</p>
+
+                <br />
+
+                <p class="code-comment">// Ideas become experiences.</p>
+              </div>
+
+              <div class="code-footer">
+                <span>
+                  <span class="status-dot"></span>
+                  Ready to build
+                </span>
+
+                <span>HTML · CSS · JS</span>
+              </div>
+            </div>
+
+            <div class="floating-label label-top">Creative thinking</div>
+
+            <div class="floating-label label-bottom">
+              Clean code. Real impact.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section class="section about-section" id="about">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">GET TO KNOW LYON TECH</p>
+
+            <h2>
+              More than code.<br />
+              <span class="gradient-text">A mindset for growth.</span>
+            </h2>
+          </div>
+
+          <div class="about-grid">
+            <article class="about-card">
+              <span class="card-number">01 / ABOUT</span>
+
+              <h3>Our journey</h3>
+
+              <p>
+                LYON TECH is a web development brand founded by Samuel Ucheike,
+                with a passion for technology, creativity and building useful
+                digital solutions. The brand focuses on creating modern,
+                responsive and user-friendly websites that help businesses and
+                individuals establish their online presence.
+              </p>
+
+              <button
+                type="button"
+                id="about-toggle"
+                class="button button-primary"
+                aria-expanded="false"
+                aria-controls="about-extra"
+              >
+                Learn more
+              </button>
+
+              <div id="about-extra" hidden>
+                <p>
+                  Through practical projects, thoughtful design and continuous
+                  improvement, LYON TECH aims to make the web more useful and
+                  accessible to the people and businesses it serves.
+                </p>
+              </div>
+            </article>
+
+            <article class="about-card">
+              <span class="card-number">02 / OUR APPROACH</span>
+
+              <h3>Purposeful design</h3>
+
+              <p>
+                We believe a good website should be more than visually
+                appealing. It should be easy to navigate, communicate
+                information clearly and provide a smooth experience across
+                phones, tablets and computers.
+              </p>
+            </article>
+
+            <article class="about-card">
+              <span class="card-number">03 / OUR GOAL</span>
+
+              <h3>Creating value</h3>
+
+              <p>
+                Our goal is to help businesses, brands and individuals
+                strengthen their online presence through thoughtful web design
+                and practical website solutions.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- SERVICES -->
+      <section class="section services-section" id="services">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">WHAT WE DO</p>
+
+            <h2>
+              Website solutions
+              <span class="gradient-text">for your ideas.</span>
+            </h2>
+
+            <p class="section-description">
+              We focus on creating useful digital experiences that help
+              businesses and individuals present themselves professionally
+              online.
+            </p>
+          </div>
+
+          <div class="services-grid">
+            <article class="service-card">
+              <span class="service-number">01</span>
+
+              <h3>Business Websites</h3>
+
+              <p>
+                Professional websites that introduce your business, present your
+                services and make it easier for potential customers to connect
+                with you.
+              </p>
+            </article>
+
+            <article class="service-card">
+              <span class="service-number">02</span>
+
+              <h3>Personal & Portfolio Websites</h3>
+
+              <p>
+                Personal websites and portfolios that showcase your skills,
+                experience, projects and professional identity.
+              </p>
+            </article>
+
+            <article class="service-card">
+              <span class="service-number">03</span>
+
+              <h3>Restaurant Websites</h3>
+
+              <p>
+                Restaurant websites that present menus, display food offerings
+                and give customers convenient ways to make enquiries or place
+                orders.
+              </p>
+            </article>
+
+            <article class="service-card">
+              <span class="service-number">04</span>
+
+              <h3>Responsive Web Design</h3>
+
+              <p>
+                Website layouts designed to adapt to different screen sizes,
+                helping visitors enjoy a consistent experience on mobile phones,
+                tablets and desktops.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- CAPABILITIES -->
+      <section class="section skills-section" id="skills">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">OUR TOOLKIT</p>
+
+            <h2>
+              Technologies &
+              <span class="gradient-text">capabilities.</span>
+            </h2>
+
+            <p class="section-description">
+              The core technologies and front-end practices behind our website
+              projects.
+            </p>
+          </div>
+
+          <div class="skills-grid">
+            <article class="skill-card">
+              <span class="skill-icon">01</span>
+
+              <h3>HTML5</h3>
+
+              <p>
+                Building structured web pages with clear and meaningful content.
+              </p>
+            </article>
+
+            <article class="skill-card">
+              <span class="skill-icon">02</span>
+
+              <h3>CSS3</h3>
+
+              <p>
+                Creating visual layouts, styling and responsive website designs.
+              </p>
+            </article>
+
+            <article class="skill-card">
+              <span class="skill-icon">03</span>
+
+              <h3>JavaScript</h3>
+
+              <p>
+                Adding interactive features and dynamic behaviour to websites.
+              </p>
+            </article>
+
+            <article class="skill-card">
+              <span class="skill-icon">04</span>
+
+              <h3>Responsive Design</h3>
+
+              <p>
+                Adapting website layouts for mobile phones, tablets and desktop
+                screens.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section class="section projects-section" id="projects">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">SELECTED WORK</p>
+
+            <h2>
+              Ideas we've
+              <span class="gradient-text">brought to life.</span>
+            </h2>
+
+            <p class="section-description">
+              Explore selected website projects demonstrating our approach to
+              design, usability and practical web development.
+            </p>
+          </div>
+
+          <div class="projects-grid">
+            <!-- PROJECT 1: LYON TECH -->
+            <article class="project-card">
+              <div class="project-image">
+                <img
+                  src="images/lyon-tech.png"
+                  alt="Screenshot preview of the LYON TECH official business website"
+                  loading="lazy"
+                />
+              </div>
+              <div class="project-info">
+                <div class="project-meta">
+                  <span>01 / BRAND WEBSITE</span>
+                  <span class="project-status">Official Website</span>
+                </div>
+                <h3>LYON TECH — Official Website</h3>
+                <p>
+                  The official website of LYON TECH, created to introduce the
+                  brand, communicate its web development services and showcase
+                  selected website projects.
+                </p>
+                <div class="project-tags">
+                  <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                </div>
+                <div class="project-actions">
+                  <a
+                    href="https://lyonflex1.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-link"
+                  >
+                    View live website <span aria-hidden="true">↗</span>
+                  </a>
+                  <a href="#contact" class="project-link">
+                    Work with us <span aria-hidden="true">↗</span>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- PROJECT 2: BLAZE CUTS -->
+            <article class="project-card">
+              <div class="project-image">
+                <img
+                  src="images/blaze-cuts.png"
+                  alt="Screenshot preview of the BLAZE CUTS barbershop website"
+                  loading="lazy"
+                />
+              </div>
+              <div class="project-info">
+                <div class="project-meta">
+                  <span>02 / BUSINESS WEBSITE</span>
+                  <span class="project-status">Live Demo</span>
+                </div>
+                <h3>BLAZE CUTS — Barbershop Website</h3>
+                <p>
+                  A barbershop website concept designed to present the business,
+                  showcase its brand identity and help potential customers
+                  discover its services online. Built with a focus on responsive
+                  layouts and a clear user experience.
+                </p>
+                <div class="project-tags">
+                  <span>HTML</span><span>CSS</span
+                  ><span>Responsive Design</span>
+                </div>
+                <div class="project-actions">
+                  <a
+                    href="https://lyonflex.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-link"
+                  >
+                    View live project <span aria-hidden="true">↗</span>
+                  </a>
+                  <a href="#contact" class="project-link">
+                    Work with us <span aria-hidden="true">↗</span>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- PROJECT 3: LYON'S KITCHEN -->
+            <article class="project-card">
+              <div class="project-image">
+                <img
+                  src="images/lyons-kitchen.png"
+                  alt="Screenshot preview of the Lyon's Kitchen restaurant website"
+                  loading="lazy"
+                />
+              </div>
+              <div class="project-info">
+                <div class="project-meta">
+                  <span>03 / RESTAURANT WEBSITE</span>
+                  <span class="project-status">Live Demo</span>
+                </div>
+                <h3>Lyon's Kitchen — Restaurant Website</h3>
+                <p>
+                  A responsive restaurant website featuring an interactive food
+                  menu, shopping cart, item removal and WhatsApp ordering.
+                  Designed to make browsing food options and placing orders more
+                  convenient.
+                </p>
+                <div class="project-tags">
+                  <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                </div>
+                <div class="project-actions">
+                  <a
+                    href="https://lyonflex2.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-link"
+                  >
+                    View live website <span aria-hidden="true">↗</span>
+                  </a>
+                  <a href="#contact" class="project-link">
+                    Work with us <span aria-hidden="true">↗</span>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- PROJECT 4: PRIMENEST -->
+            <article class="project-card">
+              <div class="project-image">
+                <img
+                  src="images/primenest.png"
+                  alt="Screenshot preview of the PrimeNest real estate website"
+                  loading="lazy"
+                />
+              </div>
+              <div class="project-info">
+                <div class="project-meta">
+                  <span>04 / REAL ESTATE WEBSITE</span>
+                  <span class="project-status">Live Demo</span>
+                </div>
+                <h3>PrimeNest — Real Estate Website</h3>
+                <p>
+                  A luxury real estate website concept featuring modern property
+                  presentations, sample listings and convenient WhatsApp enquiry
+                  options, with a focus on elegant design and responsive
+                  browsing.
+                </p>
+                <div class="project-tags">
+                  <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                </div>
+                <div class="project-actions">
+                  <a
+                    href="https://lyonflex4.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-link"
+                  >
+                    View live project <span aria-hidden="true">↗</span>
+                  </a>
+                  <a href="#contact" class="project-link">
+                    Work with us <span aria-hidden="true">↗</span>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- PROJECT 5: SKILLBRIDGE -->
+            <article class="project-card">
+              <div class="project-image">
+                <img
+                  src="images/skillbridge.png"
+                  alt="Screenshot preview of the SkillBridge online learning platform"
+                  loading="lazy"
+                />
+              </div>
+              <div class="project-info">
+                <div class="project-meta">
+                  <span>05 / EDUCATION WEBSITE</span>
+                  <span class="project-status">Live Demo</span>
+                </div>
+                <h3>SkillBridge — Online Learning Platform</h3>
+                <p>
+                  A modern online learning platform concept featuring course
+                  categories, featured learning programmes and an engaging
+                  presentation designed to make discovering learning
+                  opportunities easier.
+                </p>
+                <div class="project-tags">
+                  <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                </div>
+                <div class="project-actions">
+                  <a
+                    href="https://lyonflex5.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-link"
+                  >
+                    View live project <span aria-hidden="true">↗</span>
+                  </a>
+                  <a href="#contact" class="project-link">
+                    Work with us <span aria-hidden="true">↗</span>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- PROJECT 6: TASKFLOW -->
+            <article class="project-card">
+              <div class="project-image">
+                <img
+                  src="images/taskflow.png"
+                  alt="Screenshot preview of the TaskFlow personal task management dashboard"
+                  loading="lazy"
+                />
+              </div>
+              <div class="project-info">
+                <div class="project-meta">
+                  <span>06 / PRODUCTIVITY WEB APP</span>
+                  <span class="project-status">Live Demo</span>
+                </div>
+                <h3>TaskFlow — Personal Task Manager</h3>
+                <p>
+                  A personal task management application featuring task
+                  creation, editing, completion tracking, search, filters and
+                  browser-based data persistence using JavaScript Local Storage.
+                </p>
+                <div class="project-tags">
+                  <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                </div>
+                <div class="project-actions">
+                  <a
+                    href="https://lyonflex6.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-link"
+                  >
+                    View live project <span aria-hidden="true">↗</span>
+                  </a>
+                  <a href="#contact" class="project-link">
+                    Work with us <span aria-hidden="true">↗</span>
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="section contact-section" id="contact">
+        <div class="container contact-container">
+          <div class="contact-copy">
+            <p class="eyebrow">LET'S WORK TOGETHER</p>
+
+            <h2>
+              Let's build something
+              <span class="gradient-text">meaningful.</span>
+            </h2>
+
+            <p>
+              Need a website for your business, brand or personal project? LYON
+              TECH creates modern, responsive websites that help you establish
+              your online presence and connect with your audience. Tell us about
+              your idea, and let's discuss your project.
+            </p>
+          </div>
+
+          <div class="contact-card">
+            <span class="contact-label">START A CONVERSATION</span>
+
+            <h3>Let's connect.</h3>
+
+            <p>Send us a message and tell us what you would like to build.</p>
+
+            <a
+              class="button button-primary full-button"
+              href="https://wa.me/2348105722448?text=Hello%20LYON%20TECH%2C%20I%20would%20like%20to%20discuss%20a%20website%20project."
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Message us on WhatsApp
+              <span aria-hidden="true">↗</span>
+            </a>
+
+            <a class="phone-link" href="tel:+2348105722448">
+              +234 810 572 2448
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container footer-content">
+        <a href="#home" class="logo footer-logo" aria-label="LYON TECH home">
+          <span class="logo-mark">LT</span>
+          <span class="logo-name">LYON TECH</span>
+        </a>
+
+        <p>Innovation That Moves You Forward.</p>
+
+        <p class="copyright">
+          &copy; <span id="year"></span> LYON TECH. Built with purpose.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
